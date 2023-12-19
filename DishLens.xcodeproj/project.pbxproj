@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBABF19D2B3126C5005129AD /* DishLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF19C2B3126C5005129AD /* DishLensApp.swift */; };
+		DBABF19F2B3126C5005129AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF19E2B3126C5005129AD /* ContentView.swift */; };
+		DBABF1A12B3126C8005129AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1A02B3126C8005129AD /* Assets.xcassets */; };
+		DBABF1A42B3126C8005129AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */; };
+		DBABF1AE2B3126C8005129AD /* DishLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1AD2B3126C8005129AD /* DishLensTests.swift */; };
+		DBABF1B82B3126C8005129AD /* DishLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B72B3126C8005129AD /* DishLensUITests.swift */; };
+		DBABF1BA2B3126C8005129AD /* DishLensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBABF1AA2B3126C8005129AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBABF1912B3126C5005129AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBABF1982B3126C5005129AD;
+			remoteInfo = DishLens;
+		};
+		DBABF1B42B3126C8005129AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBABF1912B3126C5005129AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBABF1982B3126C5005129AD;
+			remoteInfo = DishLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBABF1992B3126C5005129AD /* DishLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBABF19C2B3126C5005129AD /* DishLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensApp.swift; sourceTree = "<group>"; };
+		DBABF19E2B3126C5005129AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBABF1A02B3126C8005129AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBABF1A92B3126C8005129AD /* DishLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DishLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBABF1AD2B3126C8005129AD /* DishLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensTests.swift; sourceTree = "<group>"; };
+		DBABF1B32B3126C8005129AD /* DishLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DishLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBABF1B72B3126C8005129AD /* DishLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensUITests.swift; sourceTree = "<group>"; };
+		DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBABF1962B3126C5005129AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1A62B3126C8005129AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1B02B3126C8005129AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBABF1902B3126C5005129AD = {
+			isa = PBXGroup;
+			children = (
+				DBABF19B2B3126C5005129AD /* DishLens */,
+				DBABF1AC2B3126C8005129AD /* DishLensTests */,
+				DBABF1B62B3126C8005129AD /* DishLensUITests */,
+				DBABF19A2B3126C5005129AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBABF19A2B3126C5005129AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF1992B3126C5005129AD /* DishLens.app */,
+				DBABF1A92B3126C8005129AD /* DishLensTests.xctest */,
+				DBABF1B32B3126C8005129AD /* DishLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBABF19B2B3126C5005129AD /* DishLens */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF19C2B3126C5005129AD /* DishLensApp.swift */,
+				DBABF19E2B3126C5005129AD /* ContentView.swift */,
+				DBABF1A02B3126C8005129AD /* Assets.xcassets */,
+				DBABF1A22B3126C8005129AD /* Preview Content */,
+			);
+			path = DishLens;
+			sourceTree = "<group>";
+		};
+		DBABF1A22B3126C8005129AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBABF1AC2B3126C8005129AD /* DishLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF1AD2B3126C8005129AD /* DishLensTests.swift */,
+			);
+			path = DishLensTests;
+			sourceTree = "<group>";
+		};
+		DBABF1B62B3126C8005129AD /* DishLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF1B72B3126C8005129AD /* DishLensUITests.swift */,
+				DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */,
+			);
+			path = DishLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBABF1982B3126C5005129AD /* DishLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBABF1BD2B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLens" */;
+			buildPhases = (
+				DBABF1952B3126C5005129AD /* Sources */,
+				DBABF1962B3126C5005129AD /* Frameworks */,
+				DBABF1972B3126C5005129AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DishLens;
+			productName = DishLens;
+			productReference = DBABF1992B3126C5005129AD /* DishLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBABF1A82B3126C8005129AD /* DishLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBABF1C02B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLensTests" */;
+			buildPhases = (
+				DBABF1A52B3126C8005129AD /* Sources */,
+				DBABF1A62B3126C8005129AD /* Frameworks */,
+				DBABF1A72B3126C8005129AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBABF1AB2B3126C8005129AD /* PBXTargetDependency */,
+			);
+			name = DishLensTests;
+			productName = DishLensTests;
+			productReference = DBABF1A92B3126C8005129AD /* DishLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBABF1B22B3126C8005129AD /* DishLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBABF1C32B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLensUITests" */;
+			buildPhases = (
+				DBABF1AF2B3126C8005129AD /* Sources */,
+				DBABF1B02B3126C8005129AD /* Frameworks */,
+				DBABF1B12B3126C8005129AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBABF1B52B3126C8005129AD /* PBXTargetDependency */,
+			);
+			name = DishLensUITests;
+			productName = DishLensUITests;
+			productReference = DBABF1B32B3126C8005129AD /* DishLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBABF1912B3126C5005129AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					DBABF1982B3126C5005129AD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					DBABF1A82B3126C8005129AD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DBABF1982B3126C5005129AD;
+					};
+					DBABF1B22B3126C8005129AD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DBABF1982B3126C5005129AD;
+					};
+				};
+			};
+			buildConfigurationList = DBABF1942B3126C5005129AD /* Build configuration list for PBXProject "DishLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBABF1902B3126C5005129AD;
+			productRefGroup = DBABF19A2B3126C5005129AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBABF1982B3126C5005129AD /* DishLens */,
+				DBABF1A82B3126C8005129AD /* DishLensTests */,
+				DBABF1B22B3126C8005129AD /* DishLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBABF1972B3126C5005129AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBABF1A42B3126C8005129AD /* Preview Assets.xcassets in Resources */,
+				DBABF1A12B3126C8005129AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1A72B3126C8005129AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1B12B3126C8005129AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBABF1952B3126C5005129AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBABF19F2B3126C5005129AD /* ContentView.swift in Sources */,
+				DBABF19D2B3126C5005129AD /* DishLensApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1A52B3126C8005129AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBABF1AE2B3126C8005129AD /* DishLensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBABF1AF2B3126C8005129AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBABF1BA2B3126C8005129AD /* DishLensUITestsLaunchTests.swift in Sources */,
+				DBABF1B82B3126C8005129AD /* DishLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBABF1AB2B3126C8005129AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBABF1982B3126C5005129AD /* DishLens */;
+			targetProxy = DBABF1AA2B3126C8005129AD /* PBXContainerItemProxy */;
+		};
+		DBABF1B52B3126C8005129AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBABF1982B3126C5005129AD /* DishLens */;
+			targetProxy = DBABF1B42B3126C8005129AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBABF1BB2B3126C8005129AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBABF1BC2B3126C8005129AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBABF1BE2B3126C8005129AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DishLens/Preview Content\"";
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBABF1BF2B3126C8005129AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DishLens/Preview Content\"";
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBABF1C12B3126C8005129AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DishLens";
+			};
+			name = Debug;
+		};
+		DBABF1C22B3126C8005129AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DishLens";
+			};
+			name = Release;
+		};
+		DBABF1C42B3126C8005129AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DishLens;
+			};
+			name = Debug;
+		};
+		DBABF1C52B3126C8005129AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGNQB9Y462;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haptaro.DishLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DishLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBABF1942B3126C5005129AD /* Build configuration list for PBXProject "DishLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBABF1BB2B3126C8005129AD /* Debug */,
+				DBABF1BC2B3126C8005129AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBABF1BD2B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBABF1BE2B3126C8005129AD /* Debug */,
+				DBABF1BF2B3126C8005129AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBABF1C02B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBABF1C12B3126C8005129AD /* Debug */,
+				DBABF1C22B3126C8005129AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBABF1C32B3126C8005129AD /* Build configuration list for PBXNativeTarget "DishLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBABF1C42B3126C8005129AD /* Debug */,
+				DBABF1C52B3126C8005129AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBABF1912B3126C5005129AD /* Project object */;
+}
