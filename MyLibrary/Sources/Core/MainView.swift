@@ -7,12 +7,18 @@
 
 import SwiftUI
 
+@MainActor
 public struct MainView: View {
+    @State private var router = Router()
     
     public init() {}
     
     public var body: some View {
-        Text("Main View")
+        NavigationStack(path: $router.currentPath, root: {
+            SecondView()
+                .injectRouter()
+        })
+        .environment(\.router, router)
     }
 }
 
