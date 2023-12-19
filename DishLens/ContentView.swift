@@ -7,12 +7,20 @@
 
 import SwiftUI
 import DesignSystem
+import Core
 
 struct ContentView: View {
     var body: some View {
-        MainButton(title: "Test", action: {
-            print(">>> Test")
-        })
+        NavigationView {
+            VStack {
+                MainButton(title: "Test", action: {
+                    print(">>> Test")
+                })
+                NavigationLink("To Main View", destination: {
+                    MainView()
+                })
+            }
+        }
     }
 }
 
