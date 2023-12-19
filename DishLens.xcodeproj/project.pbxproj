@@ -15,7 +15,7 @@
 		DBABF1B82B3126C8005129AD /* DishLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B72B3126C8005129AD /* DishLensUITests.swift */; };
 		DBABF1BA2B3126C8005129AD /* DishLensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */; };
 		DBABF1C82B312B37005129AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1C72B312B37005129AD /* README.md */; };
-		DBABF1CC2B321166005129AD /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DBABF1CB2B321166005129AD /* MyLibrary */; };
+		DBABF1CE2B3219AB005129AD /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = DBABF1CD2B3219AB005129AD /* DesignSystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBABF1CC2B321166005129AD /* MyLibrary in Frameworks */,
+				DBABF1CE2B3219AB005129AD /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 			);
 			name = DishLens;
 			packageProductDependencies = (
-				DBABF1CB2B321166005129AD /* MyLibrary */,
+				DBABF1CD2B3219AB005129AD /* DesignSystem */,
 			);
 			productName = DishLens;
 			productReference = DBABF1992B3126C5005129AD /* DishLens.app */;
@@ -607,9 +607,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DBABF1CB2B321166005129AD /* MyLibrary */ = {
+		DBABF1CD2B3219AB005129AD /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = MyLibrary;
+			productName = DesignSystem;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

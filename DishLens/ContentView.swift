@@ -6,17 +6,13 @@
 //
 
 import SwiftUI
-import MyLibrary
+import DesignSystem
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text(showOutput())
-        }
-        .padding()
+        MainButton(title: "Test", action: {
+            print(">>> Test")
+        })
     }
 }
 
