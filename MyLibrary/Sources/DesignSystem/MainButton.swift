@@ -11,11 +11,17 @@ public struct MainButton: View {
     
     public var body: some View {
         Button(action: action, label: {
-            Text(title)
-                .font(.title)
-                .tint(Color.white)
-                .padding()
-                .background(Color.red)
+            HStack {
+                Spacer()
+                Text(title)
+                    .font(.title)
+                    .tint(Color.white)
+                Spacer()
+            }
+            .padding()
+            .background(Color.color1)
+            .clipShape(Capsule())
+            .padding()
         })
     }
 }

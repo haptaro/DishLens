@@ -19,7 +19,7 @@ let package = Package(
         .target(name: "Core"),
         .testTarget(name: "CoreTests", dependencies: ["Core"]),
         .target(
-            name: "DesignSystem"),
+            name: "DesignSystem", resources: [.process("Color.xcassets")]),
         .testTarget(
             name: "DesignSystemTests",
             dependencies: ["DesignSystem"]),
