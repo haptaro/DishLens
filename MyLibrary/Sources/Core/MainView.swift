@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 @MainActor
 public struct MainView: View {
@@ -15,8 +16,13 @@ public struct MainView: View {
     
     public var body: some View {
         NavigationStack(path: $router.currentPath, root: {
-            SecondView()
-                .injectRouter()
+            VStack {
+                Text("MainView")
+                MainButton(title: "To next", action: {
+                    router.navigate(to: .second)
+                })
+            }
+            .injectRouter()
         })
         .environment(\.router, router)
     }

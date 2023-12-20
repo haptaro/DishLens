@@ -6,21 +6,11 @@
 //
 
 import SwiftUI
-import DesignSystem
 import Core
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            VStack {
-                MainButton(title: "Test", action: {
-                    print(">>> Test")
-                })
-                NavigationLink("To Main View", destination: {
-                    MainView()
-                })
-            }
-        }
+        MainView()
     }
 }
 
