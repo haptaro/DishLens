@@ -16,13 +16,26 @@ public struct MainView: View {
     
     public var body: some View {
         NavigationStack(path: $router.currentPath, root: {
-            VStack {
-                Text("MainView")
-                MainButton(title: "To next", action: {
-                    router.navigate(to: .second)
+                VStack {
+                    Text("MainView")
+                    MainButton(title: "To next", action: {
+                        router.navigate(to: .second)
+                    })
+                }
+                .injectRouter()
+                .toolbar(content: {
+                    ToolbarItem(placement: .topBarTrailing, content: {
+                        Button(action: {
+                            router.navigate(to: .settings)
+                        }, label: {
+                            Image(systemName: "gearshape.fill")
+                        })
+                    })
                 })
-            }
-            .injectRouter()
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbarBackground(.visible, for: .navigationBar)
+                .toolbarBackground(Color.gray, for: .navigationBar)
+            
         })
         .environment(\.router, router)
     }

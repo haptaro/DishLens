@@ -24,6 +24,7 @@ struct RouterKey: EnvironmentKey {
 enum Destination: Hashable {
     case main
     case second
+    case settings
 }
 
 @MainActor
@@ -47,6 +48,7 @@ extension View {
             switch destination {
             case .main: MainView()
             case .second: SecondView()
+            case .settings: Settings()
             }
         }
     }
