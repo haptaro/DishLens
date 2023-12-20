@@ -9,7 +9,13 @@ import SwiftUI
 
 struct Settings: View {
     var body: some View {
-        Text("Settings")
+        List {
+            Section(content: {
+                Text("Version: 1.0")
+            }, header: {
+                Text("App")
+            })
+        }
     }
 }
 
