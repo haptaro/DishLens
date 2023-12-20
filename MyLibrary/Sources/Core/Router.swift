@@ -15,8 +15,8 @@ extension EnvironmentValues {
     }
 }
 
-@MainActor
 struct RouterKey: EnvironmentKey {
+    @MainActor
     static var defaultValue: Router = .init()
 }
 
