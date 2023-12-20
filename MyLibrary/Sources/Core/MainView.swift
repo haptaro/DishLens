@@ -18,7 +18,7 @@ public struct MainView: View {
         NavigationStack(path: $router.currentPath, root: {
                 VStack {
                     Text("MainView")
-                    MainButton(title: "To next", action: {
+                    MainButton(title: "Take a photo", action: {
                         router.navigate(to: .second)
                     })
                 }
