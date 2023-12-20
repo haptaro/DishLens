@@ -11,10 +11,6 @@
 		DBABF19F2B3126C5005129AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF19E2B3126C5005129AD /* ContentView.swift */; };
 		DBABF1A12B3126C8005129AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1A02B3126C8005129AD /* Assets.xcassets */; };
 		DBABF1A42B3126C8005129AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */; };
-		DBABF1AE2B3126C8005129AD /* DishLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1AD2B3126C8005129AD /* DishLensTests.swift */; };
-		DBABF1B82B3126C8005129AD /* DishLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B72B3126C8005129AD /* DishLensUITests.swift */; };
-		DBABF1BA2B3126C8005129AD /* DishLensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */; };
-		DBABF1C82B312B37005129AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBABF1C72B312B37005129AD /* README.md */; };
 		DBABF1D02B321DED005129AD /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = DBABF1CF2B321DED005129AD /* Core */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +38,7 @@
 		DBABF1A02B3126C8005129AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBABF1A92B3126C8005129AD /* DishLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DishLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBABF1AD2B3126C8005129AD /* DishLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensTests.swift; sourceTree = "<group>"; };
 		DBABF1B32B3126C8005129AD /* DishLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DishLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBABF1B72B3126C8005129AD /* DishLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensUITests.swift; sourceTree = "<group>"; };
-		DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLensUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DBABF1C72B312B37005129AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +70,7 @@
 		DBABF1902B3126C5005129AD = {
 			isa = PBXGroup;
 			children = (
-				DBABF1C72B312B37005129AD /* README.md */,
 				DBABF19B2B3126C5005129AD /* DishLens */,
-				DBABF1AC2B3126C8005129AD /* DishLensTests */,
-				DBABF1B62B3126C8005129AD /* DishLensUITests */,
 				DBABF19A2B3126C5005129AD /* Products */,
 				DBABF1CA2B321166005129AD /* Frameworks */,
 			);
@@ -114,23 +103,6 @@
 				DBABF1A32B3126C8005129AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DBABF1AC2B3126C8005129AD /* DishLensTests */ = {
-			isa = PBXGroup;
-			children = (
-				DBABF1AD2B3126C8005129AD /* DishLensTests.swift */,
-			);
-			path = DishLensTests;
-			sourceTree = "<group>";
-		};
-		DBABF1B62B3126C8005129AD /* DishLensUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DBABF1B72B3126C8005129AD /* DishLensUITests.swift */,
-				DBABF1B92B3126C8005129AD /* DishLensUITestsLaunchTests.swift */,
-			);
-			path = DishLensUITests;
 			sourceTree = "<group>";
 		};
 		DBABF1CA2B321166005129AD /* Frameworks */ = {
@@ -247,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBABF1C82B312B37005129AD /* README.md in Resources */,
 				DBABF1A42B3126C8005129AD /* Preview Assets.xcassets in Resources */,
 				DBABF1A12B3126C8005129AD /* Assets.xcassets in Resources */,
 			);
@@ -283,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBABF1AE2B3126C8005129AD /* DishLensTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBABF1BA2B3126C8005129AD /* DishLensUITestsLaunchTests.swift in Sources */,
-				DBABF1B82B3126C8005129AD /* DishLensUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
